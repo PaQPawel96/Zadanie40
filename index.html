@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form  id="form1">
+<label for="fname">Imię:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Nazwisko:</label>
+<input type="text" id="lname" name="lname"><br><br> 
+<label for="lname">Numer telefonu:</label>
+<input type="text" id="telephone" name="telephone">
+</form>
+<button id="result" onclick="TakeData()">Wyświetl dane</button>
+<div id="container">
+    <p>Dane:</p>
+    <p id="name"></p>
+    <p id="surname"></p>
+    <p id="phone"></p>
+</div>
+<script src="js/main.js"></script>
+    </body>
+</html>
