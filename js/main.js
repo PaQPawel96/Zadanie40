@@ -1,8 +1,10 @@
-var take = document.getElementById("result");
-console.log(take.value);
-function TakeData()
+
+function takeData()
 {
-    document.querySelector("#name").value=document.querySelector("#fname");
-    document.querySelector("#surname").value=document.querySelector("#lname");
-    document.querySelector("#phone").value=document.querySelector("#telephone");
+    let a = document.getElementById('fname').value;
+    let b = document.getElementById('lname').value;
+    let c = document.getElementById('telephone').value;
+    document.getElementById('name').textContent = a;
+    document.getElementById('surname').textContent = b;
+    document.getElementById('phone').textContent = c;
 }

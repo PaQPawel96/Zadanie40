@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
-<form  id="form1">
+
 <label for="fname">Imię:</label>
 <input type="text" id="fname" name="fname"><br><br>
 <label for="lname">Nazwisko:</label>
 <input type="text" id="lname" name="lname"><br><br> 
-<label for="lname">Numer telefonu:</label>
+<label for="telephone">Numer telefonu:</label>
 <input type="text" id="telephone" name="telephone">
-</form>
-<button id="result" onclick="TakeData()">Wyświetl dane</button>
+<button id="result" onclick="takeData()">Wyświetl dane</button>
 <div id="container">
     <p>Dane:</p>
     <p id="name"></p>

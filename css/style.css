@@ -1,0 +1,20 @@
+body{
+    color:darkolivegreen;
+    background-color: turquoise;
+}
+label{
+    color:red;
+    background-color: wheat;
+}
+p{
+    color:gold;
+    background-color: thistle;
+}
+div{
+    color:firebrick;
+    background-color: coral;
+}
+button{
+    color:teal;
+    background-color: chocolate;
+}
